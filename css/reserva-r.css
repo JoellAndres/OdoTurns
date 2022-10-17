@@ -1,0 +1,37 @@
+.reserva{
+    padding-top: 8%;
+}
+.reserva .container .row .col-md-4 h2{
+    font-size: 1.5em;
+   
+    
+}
+.reserva .container .row .col-md-4 p{
+    color: #666;
+    font-family: nunito,Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+.reserva .container .row .col-md-4 .row .col-md-3 i{
+    color: #fff;
+    background-color: #2dcbbe;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgba(255,255,255,.6);
+    border-radius: 100px 100px 100px 100px;
+    overflow: hidden;
+    padding: 10px;
+    font-size: 24px;
+    width: 66px;
+}
+.reserva .container .row .col-md-4 .contenedor-contacto{
+    margin-top: 25%;
+}
+.reserva .container .row .col-md-4 .row .col-md-9 h3{
+    font-size: 20px;
+}
+.reserva .container .row .col-md-4 .row .col-md-9 p{
+    font-size: 16px;
+    color: #666;
+}
