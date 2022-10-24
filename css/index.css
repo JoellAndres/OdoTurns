@@ -1,0 +1,79 @@
+body{
+    font-family: sans-serif;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: whitesmoke;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    padding: 1rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+header .navbar a{
+    margin-left: 2rem;
+}
+
+.home1{    
+    height: 700px;
+    width: 100%;
+    background-image: url('../img/hilo-dental.png');
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+.home1 #titulo{
+    padding-top: 20%;
+    margin-left: 8%;
+    font-size: 135%;
+}
+
+.home1 #subtitulo{
+    margin-left: 8%;
+    font-size: 107%;
+}
+
+.home1 #appointment{
+    margin-left: 8%;    
+}
+
+.home1 #appointment #box{
+    float: left;
+    padding-right: 1%;
+    font-size: 150%;
+}
+
+.home_services{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.home_services #services_title{
+    text-align: center;
+}
+
+.home_services #services{
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.home_services #services .card{
+    float: left;
+    margin-right: 3%;
+}
+
+#contact_info #services_title{
+    text-align: center;
+}
+
+#contact_info .card_location .text_card{
+    font-size: 100%;
+}
