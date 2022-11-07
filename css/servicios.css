@@ -1,20 +1,31 @@
-.servicios .row{
+.servicios .row,
+#home_services .services .row{
     text-align: center;
-    padding-top: 9%;
+    padding-top: 4%;
 }
+
+
+#home_services .services_title{
+    text-align: center;
+    margin-top: 3%;
+}
+
+
 .servicios .row .col-md-12 p{
     color: #838383;
     font-family: nunito,Sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
-.servicios .row .col-md-12 h5{
-color: #333;
+.servicios .row .col-md-12 h5,
+#home_services .services_title{
+    color: #333;
     -webkit-text-stroke-color: #333;
     font-family: lora,Sans-serif;
     font-size: 38px;
 }
-.servicios .row .col-md-3 .card i{
+.servicios .row .col-md-3 .card i, 
+#home_services .services .row .col-md-3 .card i{
     background-color: #2dcbbe;
     border-style: solid;
     border-width: 2px;
@@ -31,16 +42,28 @@ color: #333;
     margin-top: 14%;
 }
 
-.servicios .row .col-md-3 .card .card-body h5{
+.servicios .row .col-md-3 .card .card-body h5, 
+#home_services .services .row .col-md-3 .card .card-body h5{
     margin-bottom: 10px;
     color: #333;
-    font-family: lora,Sans-serif;
+    font-family: lora,Sans-serif;    
 }
-.servicios .row .col-md-3 .card .card-body{
+
+
+.servicios .row .col-md-3 .card .card-body,
+#home_services .services .row .col-md-3 .card .card-body{
     margin-top: 20%;
 }
-.servicios .row .col-md-3 .card {
+
+
+
+.servicios .row .col-md-3 .card,
+#home_services .services .row .col-md-3 .card{
 
     padding-bottom: 20%;
+}
+
+#home_services .services .row .col-md-3 .card{
+    margin: 8%;
 }
 

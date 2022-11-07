@@ -1,3 +1,7 @@
+<?php
+ 
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -34,46 +38,47 @@
         <div class="col-md-4">
           <h2>Quick Contact</h2>
           <p>If you have any question simply use the following contact details.</p>
-          
+          <a href="registro.html" target="_blank">Registrarse</a>
+
           <div class="contenedor-contacto">
             <div class="row">
               <div class="col-md-3 img-container">
                 <i class="fa-solid fa-map"></i>
               </div>
-  
-  
+
+
               <div class="col-md-9 descrp-container">
                 <h3>Address</h3>
                 <p>173/45 Geraldine Lane, New York, New York-10013</p>
               </div>
-  
+
             </div>
             <div class="row">
               <div class="col-md-3 img-container">
                 <i class="fa-solid fa-map"></i>
               </div>
-  
-  
+
+
               <div class="col-md-9 descrp-container">
                 <h3>Address</h3>
                 <p>173/45 Geraldine Lane, New York, New York-10013</p>
               </div>
-  
+
             </div>
             <div class="row">
               <div class="col-md-3 img-container">
                 <i class="fa-solid fa-map"></i>
               </div>
-  
-  
+
+
               <div class="col-md-9 descrp-container">
                 <h3>Address</h3>
                 <p>173/45 Geraldine Lane, New York, New York-10013</p>
               </div>
-  
+
             </div>
           </div>
-         
+
         </div>
         <div class="col-md-8 calendario">
 
@@ -91,79 +96,80 @@
           <h2>Our Plans</h2>
         </div>
       </div>
+      
       <div class="row shadow">
         <div class="col-md-4 shadow">
-          <div class="card" style="background-color: #F6F6F6;" >
-            
+          <div class="card" style="background-color: #F6F6F6;">
+
             <div class="card-body">
               <h3 class="card-title">Pediatric Dentistry</h3>
               <p class="card-title desc-titulo">excellent oral health for kids</p>
-              
+
               <p class="card-text precio">$130</p>
               <ul>
-                <li><i class="fa-solid fa-check"></i>  All Basic Features +</li>
+                <li><i class="fa-solid fa-check"></i> All Basic Features +</li>
                 <hr>
-                <li><i class="fa-solid fa-check"></i>  Laser Dentistry</li>
+                <li><i class="fa-solid fa-check"></i> Laser Dentistry</li>
                 <hr>
-                <li><i class="fa-solid fa-check"></i>  Gentle & Friendly Dentist</li>
+                <li><i class="fa-solid fa-check"></i> Gentle & Friendly Dentist</li>
                 <hr>
-                <li><i class="fa-solid fa-check"></i>  Painless Treatmen</li>
+                <li><i class="fa-solid fa-check"></i> Painless Treatmen</li>
                 <hr>
-                <li><i class="fa-solid fa-check"></i>  Dental Crowns</li>
+                <li><i class="fa-solid fa-check"></i> Dental Crowns</li>
               </ul>
-              
+
             </div>
           </div>
         </div>
         <div class="col-md-4 shadow">
           <div class="card">
-            
+
             <div class="card-body">
               <h3 class="card-title">General Dentistry</h3>
               <p class="card-title desc-titulo">Check up and Clean</p>
-              
+
               <p class="card-text precio">$199</p>
               <ul>
-                <li><i class="fa-solid fa-check"></i>  Discuss your medical history</li>
+                <li><i class="fa-solid fa-check"></i> Discuss your medical history</li>
                 <hr>
-                <li><i class="fa-solid fa-check"></i>  Take a series of X-rays</li>
+                <li><i class="fa-solid fa-check"></i> Take a series of X-rays</li>
                 <hr>
-                <li><i class="fa-solid fa-check"></i>  Check your oral health</li>
+                <li><i class="fa-solid fa-check"></i> Check your oral health</li>
                 <hr>
-                <li><i class="fa-solid fa-check"></i>  Cleaning and polishing.</li>
+                <li><i class="fa-solid fa-check"></i> Cleaning and polishing.</li>
                 <hr>
-                <li><i class="fa-solid fa-check"></i>  Teeth cleaning guide.</li>
+                <li><i class="fa-solid fa-check"></i> Teeth cleaning guide.</li>
               </ul>
-              
-                
-              
-             
+
+
+
+
             </div>
           </div>
         </div>
         <div class="col-md-4 shadow">
           <div class="card " style="background-color: #F6F6F6;">
-            
+
             <div class="card-body">
               <h3 class="card-title">Cosmetic Dentisry</h3>
               <p class="card-title desc-titulo">advanced clear aligner system</p>
-              
+
               <p class="card-text precio">$245</p>
               <ul>
-                <li><i class="fa-solid fa-check"></i>  All Basic Features +</li>
+                <li><i class="fa-solid fa-check"></i> All Basic Features +</li>
                 <hr>
-                <li><i class="fa-solid fa-check"></i>  Invisalign</li>
+                <li><i class="fa-solid fa-check"></i> Invisalign</li>
                 <hr>
-                <li><i class="fa-solid fa-check"></i>  Teeth Whitening</li>
+                <li><i class="fa-solid fa-check"></i> Teeth Whitening</li>
                 <hr>
-                <li><i class="fa-solid fa-check"></i>  Dental Implants</li>
+                <li><i class="fa-solid fa-check"></i> Dental Implants</li>
                 <hr>
-                <li><i class="fa-solid fa-check"></i>  Dental Crowns</li>
+                <li><i class="fa-solid fa-check"></i> Dental Crowns</li>
               </ul>
-              
-                
-              
-             
+
+
+
+
             </div>
           </div>
         </div>
@@ -177,7 +183,7 @@
           <p>INTRODUCING</p>
           <H5>Our Dental Services</H5>
         </div>
-      
+
       </div>
       <div class="row">
         <div class="col-md-3">
@@ -185,34 +191,38 @@
             <i class="fa-solid fa-tooth"></i>
             <div class="card-body">
               <h5 class="card-title">Cavity Protection</h5>
-              <p class="card-text">Mauris molestie nulla at nunc imperdiet, vitae faucibus eros ultricies. Praesent sed ante in augue porta interdum.</p>
+              <p class="card-text">Mauris molestie nulla at nunc imperdiet, vitae faucibus eros ultricies. Praesent sed
+                ante in augue porta interdum.</p>
             </div>
           </div>
         </div>
         <div class="col-md-3">
-          <div class="card shadow"">
-            <i class="fa-solid fa-tooth"></i>
+          <div class="card shadow">
+            <i class=" fa-solid fa-tooth"></i>
             <div class="card-body">
               <h5 class="card-title">Implant Dentistry</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec libero vitae tortor eleifend vulputate finibus vel.</p>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec libero vitae
+                tortor eleifend vulputate finibus vel.</p>
             </div>
           </div>
         </div>
         <div class="col-md-3">
           <div class="card shadow" ">
-            <i class="fa-solid fa-tooth"></i>
+            <i class=" fa-solid fa-tooth"></i>
             <div class="card-body">
               <h5 class="card-title">Cosmetic Dentistry</h5>
-              <p class="card-text">Ut ut consectetur urna. Curabitur eget dapibus metus, et fermentum dui. Maecenas elementum tincidunt nisl.</p>
+              <p class="card-text">Ut ut consectetur urna. Curabitur eget dapibus metus, et fermentum dui. Maecenas
+                elementum tincidunt nisl.</p>
             </div>
           </div>
         </div>
         <div class="col-md-3">
           <div class="card shadow" ">
-            <i class="fa-solid fa-tooth"></i>
+            <i class=" fa-solid fa-tooth"></i>
             <div class="card-body">
               <h5 class="card-title">Paradontosis</h5>
-              <p class="card-text">Curabitur nec interdum ligula. Aenean in est mi. Sed quis dolor nisl. Curabitur ac odio et nunc facilisis mollis ac sit</p>
+              <p class="card-text">Curabitur nec interdum ligula. Aenean in est mi. Sed quis dolor nisl. Curabitur ac
+                odio et nunc facilisis mollis ac sit</p>
             </div>
           </div>
         </div>

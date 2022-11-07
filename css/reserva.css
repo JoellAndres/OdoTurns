@@ -1,0 +1,23 @@
+#registro{
+    background-color: whitesmoke;
+}
+
+#registro .titulo,
+#inicioSesion .titulo{
+    text-align: center;
+    color: #333;
+    font-family: lora, sans-serif;
+    font-size: 38px;
+    padding-top: 2%;
+}
+
+#registro form,
+#inicioSesion form{
+    margin-left: 36%;
+    margin-right: 36%;
+    margin-top: 3%;
+}
+
+#registro .formulario form #btn_submit{
+    margin-top: 5%;
+}
