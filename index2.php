@@ -27,7 +27,7 @@
         <nav class="navbar">
             <a href="#home_services">Servicios Dentales</a>
             <a href="#contact">Contacto</a>
-            <a href="inicio_sesion.html">Iniciar Sesion</a>
+            <a href="inicio_sesion.php">Iniciar Sesion</a>
         </nav>
     </header>
 
