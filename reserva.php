@@ -105,7 +105,7 @@ include("./templates/cabecera-log.php");
 
       </div>
       <div class="col-md-8 calendario">
-
+          <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#horarios">Seleccionar turno</button>
         <!-- Modal -->
         <div class="modal fade" id="horarios" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog">
@@ -137,6 +137,13 @@ include("./templates/cabecera-log.php");
                     <div class="col-md-6"><button class="botones" type="submit" value="3" name="boton" data-bs-toggle="modal" data-bs-target="#confirmar">Asignar turno</button></div>
                   </div>
                 </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 <section class="nuestro-planes">
   <div class="container">
@@ -285,5 +292,7 @@ include("./templates/cabecera-log.php");
 
 
 </body>
-
+<?php 
+include("./templates/footer.php");
+?>
 </html>
