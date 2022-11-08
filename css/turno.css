@@ -1,0 +1,10 @@
+#turno .titulo{
+    text-align: center;
+    margin-top: 3%;
+}
+
+#turno .frm_turno form{
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 2%;
+}
