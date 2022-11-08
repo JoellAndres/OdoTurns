@@ -36,13 +36,8 @@
         <div class="frm_turno">
             <form>
                 <div class="mb-3">
-                    <label for="input_fecha" class="form-label">Fecha</label>
-                    <input type="Date" name="fecha_turno" class="form-control" id="input_fecha">
-                </div>
-
-                <div class="mb-3">
-                    <label for="input_hora" class="form-label">Hora</label>
-                    <input type="Time" name="hora_turno" class="form-control" id="input_hora">
+                    <label for="input_fecha" class="form-label">Fecha y Hora</label>
+                    <input type="datetime-local" name="fechaHora_turno" class="form-control" id="input_fecha">
                 </div>
 
                 <button type="submit" class="btn btn-dark" id="btn_turno_submit">
