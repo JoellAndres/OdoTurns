@@ -10,14 +10,19 @@ $sentenciaSQL->bindParam(':clave', $txtclave);
 $sentenciaSQL->execute();
 $paciente = $sentenciaSQL->fetch(PDO::FETCH_LAZY);
 
-$txtnombre = $paciente['nombre'];
+$txtid = $paciente['id'];
+$txtnombre=$paciente['nombre'];
 $txtapellido = $paciente['apellido'];
+
+
+
 if ($txtnombre != "") {
     session_start();
     $_SESSION['miSesion'] = array();
-    $_SESSION['miSesion'][0] = $txtnombre;
-    $_SESSION['miSesion'][1] = $txtapellido;
-
+    $_SESSION['miSesion'][0] = $txtid;
+    $_SESSION['miSesion'][1] = $txtnombre;
+    $_SESSION['miSesion'][2] = $txtapellido;
+    
     header("Location:reserva.php");
 } else {
     echo '<script language="javascript">window.confirm("Documento o clave incorrectos");window.location.href = "./inicio_sesion.php"</script>';

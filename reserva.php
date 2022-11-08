@@ -105,7 +105,7 @@ include("./templates/cabecera-log.php");
 
       </div>
       <div class="col-md-8 calendario">
-          <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#horarios">Seleccionar turno</button>
+          <a href="./turno.php"><button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#horarios">Seleccionar turno</button></a> 
         <!-- Modal -->
         <div class="modal fade" id="horarios" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog">
@@ -141,6 +141,7 @@ include("./templates/cabecera-log.php");
             </div>
           </div>
         </div>
+        <div id='calendar'></div>
       </div>
     </div>
   </div>
@@ -282,14 +283,20 @@ include("./templates/cabecera-log.php");
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-12">
-        <button class="btn btn-primary">MORE SERVICES ></button>
-      </div>
-    </div>
+   
   </div>
 </section>
+<script>
 
+      document.addEventListener('DOMContentLoaded', function() {
+        var calendarEl = document.getElementById('calendar');
+        var calendar = new FullCalendar.Calendar(calendarEl, {
+          initialView: 'dayGridMonth'
+        });
+        calendar.render();
+      });
+
+    </script>
 
 </body>
 <?php 

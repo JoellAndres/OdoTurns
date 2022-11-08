@@ -1,5 +1,21 @@
 <?php
+session_start();
 
+$txtfecha = (isset($_POST['txtfecha'])) ? $_POST['txtfecha'] : "";
+$accion = (isset($_POST['accion'])) ? $_POST['accion'] : "";
+
+switch ($accion) {
+    case "confirmar_turno":
+        include("../OdoTurns/config/bd.php");
+      $sentenciaSQL = $conexion->prepare("INSERT INTO `turnos`(`id`, `idUsuario`, `fecha_hora`) VALUES ('[value-1]',:id,:fecha)");
+      $sentenciaSQL->bindParam(':id',$_SESSION['miSesion'][0]);
+      $sentenciaSQL->bindParam(':fecha', $txtfecha);
+      $sentenciaSQL->execute();
+      echo '<script language="javascript">window.confirm("Turno confirmado con extio!");window.location.href = "./reserva.php"</script>';
+      break;
+      case "cancelar_turno":
+        header("Location: reserva.php");
+    }
 ?>
 
 <html>
@@ -34,22 +50,21 @@
         </div>
         <!-- datetime, id_usuario -->
         <div class="frm_turno">
-            <form>
+            <form method="POST">
                 <div class="mb-3">
                     <label for="input_fecha" class="form-label">Fecha y Hora</label>
-                    <input type="datetime-local" name="fechaHora_turno" class="form-control" id="input_fecha">
+                    <input type="datetime-local" name="txtfecha"  class="form-control" id="input_fecha">
                 </div>
 
-                <button type="submit" class="btn btn-dark" id="btn_turno_submit">
-                    Iniciar sesion
+                <button type="submit" class="btn btn-dark" id="btn_turno_submit" name="accion" value="confirmar_turno">
+                    Confirmar turno
+                </button>
+                <button type="submit" class="btn btn-dark" id="btn_turno_submit" name="accion" value="cancelar_turno">
+                    Salir
                 </button>
 
             </form>
-
         </div>
-
-
-
     </section>
 
 

@@ -33,7 +33,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-               <a class="nav-link active" aria-current="page" href="#"><?php echo $_SESSION['miSesion'][0]." ".$_SESSION['miSesion'][1]  ?></a>
+               <a class="nav-link active" aria-current="page" href="#"><?php echo $_SESSION['miSesion'][1]." ".$_SESSION['miSesion'][2]  ?></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="cerrar_sesion.php">Cerrar session</a>
