@@ -21,6 +21,8 @@
             <h2>Iniciar sesion</h2>
         </div>
 
+        
+
         <div class="frm_inicio">
             <form action="validar.php" method="POST">
                 <div class="mb-3">
